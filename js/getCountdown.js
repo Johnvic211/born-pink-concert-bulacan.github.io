@@ -2,7 +2,7 @@ var dd = document.getElementById('days')
 var hh = document.getElementById('hours')
 var mm = document.getElementById('minutes')
 var ss = document.getElementById('seconds')
-var targetDate = '2023-03-25T19:00:02'
+var targetDate = '2025-11-23T19:00:02'
 
 function millisToMinutesAndSeconds(date_future, date_now) {
     var delta = Math.abs(date_future - date_now) / 1000;
